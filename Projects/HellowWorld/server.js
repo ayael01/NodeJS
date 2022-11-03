@@ -34,7 +34,6 @@ var server = http.createServer(function (req, res) {   //create web server
         //res.write('<html><body><p>This is admin Page.</p></body></html>');
         res.write(JSON.stringify({ message: "Hello World from myfeature"}));
         res.end();
-    
     }
     else
         res.end('Invalid Request!');
