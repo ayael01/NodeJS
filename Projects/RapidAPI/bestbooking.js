@@ -4,7 +4,7 @@ const options = {
 	"method": "GET",
 	"hostname": "best-booking-com-hotel.p.rapidapi.com",
 	"port": null,
-	"path": "/booking/best-accommodation?cityName=Berlin&countryName=Germany",
+	"path": "/booking/best-accommodation?cityName=telaviv&countryName=Israel",
 	"headers": {
 		"X-RapidAPI-Key": "5dbd4184e4mshd551a55bf8fd0f9p18eb3ajsnd48273def2fb",
 		"X-RapidAPI-Host": "best-booking-com-hotel.p.rapidapi.com",
