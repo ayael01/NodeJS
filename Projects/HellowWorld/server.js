@@ -52,6 +52,14 @@ var server = http.createServer(function (req, res) {   //create web server
         res.end();
 
     }
+    else if (req.url == "/procedure3") {
+
+        res.writeHead(200, { 'Content-Type': 'text/html' });
+        //res.write('<html><body><p>This is admin Page.</p></body></html>');
+        res.write(JSON.stringify({ message: "Hello World from procedure3"}));
+        res.end();
+
+    }
     else
         res.end('Invalid Request!');
 
